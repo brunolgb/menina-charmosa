@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+*{
+    padding: 0;
+    height: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+:root{
+    --cor-primary: rgb(128,0,128);
+    --cor-secundary: rgb(31,31,31);
+    --cor-white: #fff;
+}
+body{
+    font-size: 12px;
+}
+
+input, button, textarea, select{
+    outline: none;
+    background: var(--cor-white);
+}
